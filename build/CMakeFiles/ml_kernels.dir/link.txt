@@ -1,0 +1,2 @@
+/usr/bin/ar qc libml_kernels.a  CMakeFiles/ml_kernels.dir/src/matmul.cpp.o
+/usr/bin/ranlib libml_kernels.a

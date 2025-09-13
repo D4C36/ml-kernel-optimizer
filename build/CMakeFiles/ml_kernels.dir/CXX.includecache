@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/matmul.h
+vector
+-
+
+/home/dchiou/projects/github/ml-kernel-optimizer/src/matmul.cpp
+matmul.h
+/home/dchiou/projects/github/ml-kernel-optimizer/src/matmul.h
+stdexcept
+-
+
